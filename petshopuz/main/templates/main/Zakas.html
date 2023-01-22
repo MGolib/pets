@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <style>
+    .oraliq{
+    margin-top : 20px;
+    background-color: #BDB76B;
+    }
+
+</style>
+  </head>
+  <body>
+<div class="container oraliq">
+  <form class="row g-3" method="post">
+
+  {% csrf_token %}
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Ism</label>
+    <input type="text" class="form-control" name="ism" id="inputEmail4" placeholder="Ismingizni kiriting...">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Tel:</label>
+    <input type="text" class="form-control" name="telefon" id="inputPassword4" placeholder="Telefon raqamizi kiriting...">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Yetkazib berish manzili</label>
+    <input type="text" class="form-control" name="shahar" id="inputAddress" placeholder="Manzilni kiriting...">
+  </div>
+
+
+
+  <div class="col-md-2">
+    <label for="lmiqdor" class="form-label">Miqdori</label>
+    <input type="text" id="lmiqdor" class="form-control" name="miqdor" placeholder="Son kiriting...">
+  </div>
+    <br>
+    <div class="d-grid gap-2 d-md-block">
+
+<input type="submit" class="btn btn-outline-success" value="Send">
+   </div>
+</form>
+    <div class="d-grid gap-2 d-md-block oraliq">
+    <button type="button" class="btn btn-outline-dark">Orqaga</button>
+  </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

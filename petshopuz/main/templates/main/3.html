@@ -1,0 +1,99 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+Index sahifa
+{% endblock %}
+
+{% block body %}
+<div class="container oraliq">
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="https://www.proplan.ru/sites/owners.proplan.ru/files/styles/article350x165/public/2020-03/bishon-frize_2.webp?itok=d6I6sjHh" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Бишон фризе</h5>
+        <p class="card-text">«Бишон фризе» – название непривычное русскому уху, однако именно так правильно называть эту породу собак из группы бишонов.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.proplan.ru/sites/owners.proplan.ru/files/styles/article350x165/public/2020-03/shutterstock_278505755_2.webp?itok=_ULJf0__" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Бобтейл</h5>
+        <p class="card-text">Согласно другому названию породы — «староанглийская овчарка», — родиной бобтейла является Великобритания.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.proplan.ru/sites/owners.proplan.ru/files/styles/article350x165/public/2020-03/shutterstock_626162966_2.webp?itok=gZ3XH7Op" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Бультерьер</h5>
+        <p class="card-text">Старинные буль-энд-терьеры были выведены в Англии от бульдогов и терьеров.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.proplan.ru/sites/owners.proplan.ru/files/styles/article350x165/public/2021-12/bokser_740.webp?itok=xutsT5--" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Боксёр</h5>
+        <p class="card-text">Немецкий боксер, выведенный в Германии, известен всему миру и считается одной из самых популярных пород.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container oraliq">
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="https://www.proplan.ru/sites/owners.proplan.ru/files/styles/article350x165/public/2019-05/borzye-sobaki-teaser_0.webp?itok=NfG4TKaF" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Борзые собаки</h5>
+        <p class="card-text">Борзые – это группа пород охотничьих собак, используемых для безружейной охоты на зверей. Слово «борзый», согласно словарю Даля, означает: «скорый, проворный, прыткий, быстрый, бойкий, рьяный».</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.proplan.ru/sites/owners.proplan.ru/files/styles/article350x165/public/2021-04/%D0%BA%D0%BE%D1%80%D0%B3%D0%B8_720%D1%85340.webp?itok=7JU-20XC" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Вельш-корги</h5>
+        <p class="card-text">Вельш-корги – это название двух пород собак, а именно вельш-корги-пемброк и вельш-корги-кардиган.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.proplan.ru/sites/owners.proplan.ru/files/styles/article350x165/public/2020-03/shutterstock_42426400_3.webp?itok=SqYftNe3" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Дратхаар</h5>
+        <p class="card-text">Родина дратхаара — Германия. Его предками считаются старонемецкие жесткошерстные легавые: в конце 20-го в. селекционеры скрещивали их с с пойнтером, пуделем, эрдельтерьером и грифоном, с целью выведения новой охотничьей породы.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.proplan.ru/sites/owners.proplan.ru/files/styles/article350x165/public/2021-11/basendzhi_720x340.webp?itok=N2Qw45-c" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Басенджи</h5>
+        <p class="card-text">Если выбираете собаку, которая станет вам верным и добрым другом — обратите внимание на басенджи. Умные и общительные, они отлично ладят не только с людьми, но и с другими собаками.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container oraliq">
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+
+    <li class="page-item"><a class="page-link" href="{% url 'main' %}">1</a></li>
+    <li class="page-item"><a class="page-link" href="{% url 'ikkinchi' %}">2</a></li>
+    <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+
+  </ul>
+</nav>
+</div>
+{% endblock %}
