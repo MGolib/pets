@@ -45,3 +45,5 @@ def zakas(request):
             print("Xatolik buldi")
 
     return render(request, 'main/Zakas.html')
+
+# test uchun
